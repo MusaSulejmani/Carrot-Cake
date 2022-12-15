@@ -15,9 +15,9 @@
         </tr>
     </table>
 
-    <table style="background-color:rgb(14, 218, 222)" align="center" width="915">
+    <table align="center" width="915">
         <tr>
-            <td>
+            <td style="background-color:rgb(14, 218, 222)">
                 <p><b>
                 <a href="#">BREAD</a> /
                 <a href="#"> CAKES</a> /
@@ -26,12 +26,12 @@
                 <a href="#"> PIES</a> /
                 <a href="#"> BAKING TIPS</a> /
                 <a href="#"> RECIPES</a> 
-                </p>
-                </td></b>
+                </b></p>
+                </td>
             </tr>
     </table>
 
-<table width="915" align="center" colspan="2">
+<table width="915" align="center">
     <tr>
         <td>
             <h1>My Favorite Carrot Cake Recipe</h1>
@@ -74,7 +74,7 @@
 <h3>Order now!</h3>
 
 <form method="GET">
-    <label for="ammount" required>How many:</label>
+    <label for="ammount">How many:</label>
     <br>
     <input 
     type="text" 
@@ -100,7 +100,7 @@
     required>        
     <br><br>
 
-    <label for="date" required>Birthday:</label>
+    <label for="date">Birthday:</label>
     <br>
     <input style="width:170px;" 
     type="date" 
@@ -179,7 +179,7 @@
     </tr>
 </table>
 
-<table style="background-color:rgb(14, 218, 222)" align="center" width="915" height="100" colspan="3">
+<table style="background-color:rgb(14, 218, 222)" align="center" width="915" colspan="3">
     <tr>
         <td width="33.3%" valign="center">
             <form method="GET">
@@ -191,23 +191,24 @@
               <option value="updates">Updates</option>
               <option value="dailyrecipes">Daily Recipes</option>
             </select>
+            </form>
         </td>
 
         <td width="33.3%" valign="center">
-            <label for="recieveemails">Frequency<label><br>
-
+            <label for="frequency">Frequency</label>
+                <br>
                   <input type="radio" id="frequency" name="daily" value="daily" checked>
                   <label for="daily">Daily</label>
                 
-                  <input type="radio" id="frequency" name="weekly" value="weekly">
+                  <input type="radio" name="weekly" value="weekly">
                   <label for="weekly">Weekly</label>
          
-                  <input type="radio" id="frequency" name="monthly" value="monthly">
+                  <input type="radio" name="monthly" value="monthly">
                   <label for="monthly">Monthly</label>    
              </td>
 
         <td width="33.3%" valign="top">
-            <label for="recieveemails">Email:<label><br>
+            <label for="email">Email:</label><br>
             <input 
             type="email" 
             id="email" 
