@@ -7,18 +7,16 @@
     <title>Carrot Cake Recipe</title>
 </head>
 <body>
-    <table width="915" align="center" colspan="2">
+
+    <table width="915" align="center" cellpadding="5">
         <tr>
-            <td>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.uPj0DSb7Px_OjkGnScyiBgHaA5%26pid%3DApi&f=1&ipt=bc6462e1f51ef47e42328f588f941eef174b64378336159f137bc9c7eaea9784&ipo=images" alt="Logo" height="40" align="center">
+            <td colspan="2">
+                <a href="#">
+                <img src="images/logo.png" alt="Logo" height="40"/></a>
             </td>
         </tr>
-    </table>
-
-    <table align="center" width="915">
         <tr>
-            <td style="background-color:rgb(14, 218, 222)">
-                <p><b>
+            <td style="background-color:rgb(14, 218, 222)" colspan="2">
                 <a href="#">BREAD</a> /
                 <a href="#"> CAKES</a> /
                 <a href="#"> COOKIES</a> /
@@ -26,160 +24,143 @@
                 <a href="#"> PIES</a> /
                 <a href="#"> BAKING TIPS</a> /
                 <a href="#"> RECIPES</a> 
-                </b></p>
-                </td>
-            </tr>
-    </table>
-
-<table width="915" align="center">
-    <tr>
-        <td>
-            <h1>My Favorite Carrot Cake Recipe</h1>
-            <p>Posted on March 23, 2015 / posted in <a href="#">Cakes</a> / <a href="#">1011 comments</a></p>
-        </td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>My Favorite Carrot Cake Recipe</h2>
+                <p>Posted on March 23, 2015 / posted in <a href="#">Cakes</a> / <a href="#">1011 comments</a></p>
+            </td>
         
         <td align="right">
+            
             <a href="https://twitter.com/home" target="_blank">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fsocial-media-icons-the-circle-set%2F48%2Ftwitter_circle-512.png&f=1&nofb=1&ipt=90651d2a289dc19743e5f2cc486af8a062b7a7d29042389ba94736469ac980d6&ipo=images" alt="Twitter" width="30"></a>
+                <img src="images/social/twitter.png" alt="Twitter" height="32">
+            </a>
 
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreepngimg.com%2Fdownload%2Ffacebook%2F65656-icons-media-computer-facebook-social-logo-circle.png&f=1&nofb=1&ipt=cb9796a967690a8d8ab209556696e864794011a4680e7783ae56c584af382546&ipo=images" alt="Facebook" width="30"></a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/social/facebook.png" alt="Facebook" height="32">
+            </a>
 
             <a href="https://www.pinterest.com/" target="_blank">
-                <img src="https://cdn.discordapp.com/attachments/829075593739763785/1052699515582414858/Screenshot_2022-12-14_223110-removebg-preview.png" alt="Pinterest" width="30"></a>
+                <img src="images/social/pinterest.png" alt="Pinterest" height="32">
+            </a>
                
             <a href="#" target="_blank">
-                <img src="https://cdn.discordapp.com/attachments/1045787902682075287/1052686514829656065/y.png" alt="Y" width="30"></a>
+                <img src="images/social/yummly.png" alt="Yummly" height="32">
+            </a>
 
             <a href="https://mail.google.com/" target="_blank">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fsocial-messaging-ui-color-and-shapes-4%2F177800%2F155-512.png&f=1&nofb=1&ipt=47a2a3627d92bd8b8e289405668abdac2845a282ae623c0e9ea6b5cab81aeb42&ipo=images" alt="Email" width="30"></a>
-                </td>
-            </tr>
-    </table>
+                <img src="images/social/email.png" alt="Email" height="32">
+            </a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td><img src="images/01.jpg" alt="1" width="100%" /></td>
+                        <td><img src="images/02.jpg" alt="1" width="100%" /></td>
+                        <td><img src="images/03.jpg" alt="1" width="100%" /></td>
+                        <td><img src="images/04.jpg" alt="1" width="100%" /></td>
+                    </tr>
+                </table>
+            </td>
+        </tr> 
+        <td colspan="2">
+            <table>
+                <tr>
+                    <td width="30%" valign="top">
+                        <h4>Order now!</h4>
+                        <form method="GET">
+                        <label for="ammount">How many:</label>
+                        <br>
+                        <input style="width:170px;"
+                        type="number" 
+                        id="ammount" 
+                        name="ammount" 
+                        required
+                        min="1"
+                        max="100">
+                        <br><br>
+                        <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Name"
+                        required>        
+                        <br><br>
+                        <input  
+                        type="text" 
+                        id="surname" 
+                        name="surname" 
+                        placeholder="Surname"
+                        required>        
+                        <br><br>
+                        <label for="date">Birthday:</label>
+                        <br>
+                        <input style="width:170px;" 
+                        type="date" 
+                        id="date" 
+                        name="date" 
+                        required>        
+                        <br><br>
+                        <input 
+                        type="text" 
+                        id="mobilenumber" 
+                        name="mobilenumber" 
+                        placeholder="Phone number"
+                        required
+                        pattern="[0-9]+">        
+                        <br><br>
+                        <button type="submit">ORDER</button>
+                  </form>
+              </td>
+              <td width="50%" valign="top">
+              <p><strong>Tiramisu</strong> is a timeless no-bake Italian dessert combining espresso-dipped ladyfingers and a creamy lightly sweetened mascarpone cream. This recipe is from the late Maida Heatter and is easily the best homemade tiramisu recipe that I’ve ever tried.</p>
+              <p>A couple months ago, I was sent a new cookbook called Happiness is Baking. This cookbook includes Maida Heatter’s favorite recipes with the foreword written by Dorie Greenspan. I, unsurprisingly, immediately fell in love with my newest cookbook. It’s a collection of 100 foolproof and classic desserts including cookies, cakes, muffins, pies, tarts, and more that range from simple everyday cookies to outrageously indulgent chocolate soufflé cake.</p>
+              <h3>Ingredients</h3>
+              <ul>
+                <li>1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature</li>
+                <li>6 Tablespoons (90ml) Grand Marnier</li>
+                <li>40–45 ladyfingers</li>
+                <li>16 ounces (about 2 cups; 450g) mascarpone, cold or at room temperature</li>
+                <li>1/4 cup (60ml) dark rum</li>
+                <li>4 large pasteurized eggs, separated</li>
+                <li>1/2 cup (100g) granulated sugar, divided</li>
+                <li>2 cups (480ml) heavy cream or heavy whipping cream</li>
+                <li>1/2 teaspoon pure vanilla extract</li>
+                <li>1/8 teaspoon salt</li>
+                <li>unsweetened natural or dutch-process cocoa powder</li>
+            </ul>
+            <p>
+    For those not familiar, Maida Heatter is an icon, especially in the baking world. Dubbed the Queen of Cake, her expansive culinary career included 9 cookbooks, recipes for the Times, a restaurant, and three James Beard Awards. Baker and author Dorie Greenspan once said “Whenever someone tells me they want to learn to bake, I tell them to start with Maida Heatter’s books. That’s what I did.” This latest cookbook is a testament to Maida’s legacy. She leaves behind an incalculable amount of inspiration to bakers and cooks all over the world.
+            </p>
+            <img src="images/carrot-cake.jpg" alt="" width="100%"/>
+            <h3>Common Tiramisu Questions – Answered</h3>
+            <dl>
 
-<table width="915" align="center">
-    <tr>
-        <td>
-        <img src="https://sallysbakingaddiction.com/wp-content/uploads/2015/03/carrot-cake-batter-1024x1536.jpg" alt="" width="220">
-        <img src="https://sallysbakingaddiction.com/wp-content/uploads/2015/03/carrot-cake-slice-1024x1536.jpg" alt="" width="220">
-        <img src="https://sallysbakingaddiction.com/wp-content/uploads/2015/03/layer-carrot-cake-3.jpg" alt="" width="220">
-        <img src="https://sallysbakingaddiction.com/wp-content/uploads/2015/03/best-carrot-cake-2.jpg" alt="" width="220">
+            <dt>
+            <b>What kind of rum do I use in tiramisu?</b>
+            <dd>Dark rum is best, but you can use brandy or your favorite coffee liqueur.</dd> 
+            </dt>
+            <br>
+            <dt><b>Egg whites or whipped cream?</b>
+                <dd>Most tiramisu recipes use whipped egg whites OR whipped cream in the mascarpone cream layers. Egg whites contribute a more airy texture, while whipped cream makes the filling a bit more rich. This recipe actually uses both, so you’re getting both delightful textures.</dd>
+            </dt>
+            <br>
+            <dt><b>Are the eggs cooked?</b>
+                <dd> Tiramisu is a no-bake dessert. The egg yolks are gently cooked on the stovetop, but the egg whites are raw. Purchase pasteurized eggs because they are safe to consume raw.</dd>
+            </dt>
+            <br>
+            <dt><b>What size pan to use?</b></dt>
+                <dd>This particular tiramisu recipe yields a large volume and the pan will be very full. Make sure your pan is large enough. I recommend a 9×13 inch dish with at least a 12-14 cup capacity. This 4 quart dish is wonderful too.</dd>
+            </dl>
         </td>
     </tr>
 </table>
 
-<table width="915" align="center">
-    <tr>
-        <td valign="top" width="8%">
-<h3>Order now!</h3>
-
-<form method="GET">
-    <label for="ammount">How many:</label>
-    <br>
-    <input 
-    type="text" 
-    id="ammount" 
-    name="ammount" 
-    required
-    pattern="[0-9]">
-    <br><br>
-    
-    <input 
-    type="text" 
-    id="name" 
-    name="name" 
-    placeholder="Name"
-    required>        
-    <br><br>
-    
-    <input 
-    type="text" 
-    id="surname" 
-    name="surname" 
-    placeholder="Surname"
-    required>        
-    <br><br>
-
-    <label for="date">Birthday:</label>
-    <br>
-    <input style="width:170px;" 
-    type="date" 
-    id="date" 
-    name="date" 
-    required>        
-    <br><br>
-
-    <input 
-    type="text" 
-    id="mobilenumber" 
-    name="mobilenumber" 
-    placeholder="Phone number"
-    required
-    pattern="[0-9]+">        
-    <br><br>
-    
-    <button type="submit">ORDER</button>
-    <br>  
-    </form>
-</td>
-    
-        <td width="50%" valign="top">
-        <p>
-            <strong>Tiramisu</strong> is a timeless no-bake Italian dessert combining espresso-dipped ladyfingers and a creamy lightly sweetened mascarpone cream. This recipe is from the late Maida Heatter and is easily the best homemade tiramisu recipe that I’ve ever tried.</p>
-            <p>A couple months ago, I was sent a new cookbook called Happiness is Baking. This cookbook includes Maida Heatter’s favorite recipes with the foreword written by Dorie Greenspan. I, unsurprisingly, immediately fell in love with my newest cookbook. It’s a collection of 100 foolproof and classic desserts including cookies, cakes, muffins, pies, tarts, and more that range from simple everyday cookies to outrageously indulgent chocolate soufflé cake.</p>
-
-            <h3>Ingredients</h3>
-            <ul>
-    <li>1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature</li>
-    <li>6 Tablespoons (90ml) Grand Marnier</li>
-    <li>40–45 ladyfingers</li>
-    <li>16 ounces (about 2 cups; 450g) mascarpone, cold or at room temperature</li>
-    <li>1/4 cup (60ml) dark rum</li>
-    <li>4 large pasteurized eggs, separated</li>
-    <li>1/2 cup (100g) granulated sugar, divided</li>
-    <li>2 cups (480ml) heavy cream or heavy whipping cream</li>
-    <li>1/2 teaspoon pure vanilla extract</li>
-    <li>1/8 teaspoon salt</li>
-    <li>unsweetened natural or dutch-process cocoa powder</li>
-</ul>
-
-<p>
-    For those not familiar, Maida Heatter is an icon, especially in the baking world. Dubbed the Queen of Cake, her expansive culinary career included 9 cookbooks, recipes for the Times, a restaurant, and three James Beard Awards. Baker and author Dorie Greenspan once said “Whenever someone tells me they want to learn to bake, I tell them to start with Maida Heatter’s books. That’s what I did.” This latest cookbook is a testament to Maida’s legacy. She leaves behind an incalculable amount of inspiration to bakers and cooks all over the world.
-</p>
-
-<img src="https://cdn.idntimes.com/content-images/community/2018/05/carrot-cake-loaf-recipe9180-f0b96393cff6d02d4777b6b54c5579a2.jpg" alt="" width="100%">
-
-<h3>Common Tiramisu Questions – Answered</h3>
-
-<dl>
-
-<dt>
-<b>What kind of rum do I use in tiramisu?</b>
-<dd>Dark rum is best, but you can use brandy or your favorite coffee liqueur.</dd> 
-</dt>
-
-<br>
-
-<dt><b>Egg whites or whipped cream?</b>
-    <dd>Most tiramisu recipes use whipped egg whites OR whipped cream in the mascarpone cream layers. Egg whites contribute a more airy texture, while whipped cream makes the filling a bit more rich. This recipe actually uses both, so you’re getting both delightful textures.</dd>
-</dt>
-
-<br>
-
-<dt><b>Are the eggs cooked?</b>
-    <dd> Tiramisu is a no-bake dessert. The egg yolks are gently cooked on the stovetop, but the egg whites are raw. Purchase pasteurized eggs because they are safe to consume raw.</dd>
-</dt>
-
-<br>
-
-<dt><b>What size pan to use?</b></dt>
-    <dd>This particular tiramisu recipe yields a large volume and the pan will be very full. Make sure your pan is large enough. I recommend a 9×13 inch dish with at least a 12-14 cup capacity. This 4 quart dish is wonderful too.</dd>
-</dl>
-    </td>
-    </tr>
-</table>
-
-<table style="background-color:rgb(14, 218, 222)" align="center" width="915" colspan="3">
+<table style="background-color:rgb(14, 218, 222)" align="center" width="915" colspan="2">
     <tr>
         <td width="33.3%" valign="center">
             <form method="GET">
@@ -203,7 +184,7 @@
      
                 <input type="radio" name="frequence" value="month">Monthly
   
-             </td>
+        </td>
 
         <td width="33.3%" valign="top">
             <label for="email">Email:</label><br>
